@@ -1,6 +1,6 @@
 import { maxSumWIndow } from '../src/test2-max-sum-window';
 
-describe('Soal Nomor 2', () => {
+describe('Test2: Max Sum Window', () => {
 	it('should return the max sub array', () => {
 		expect(maxSumWIndow([100, 200, 300, 400], 2)).toBe(700);
 	});
